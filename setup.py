@@ -17,4 +17,7 @@ setup(
         "Intended Audience :: System Administrators",
         "Topic :: System :: Networking :: Monitoring",
     ],
+    install_requires=[
+        "windows-curses; platform_system=='Windows'",
+    ],
 )

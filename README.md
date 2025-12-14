@@ -20,6 +20,9 @@
 git clone https://github.com/your-repo/reach-conn-checker.git
 cd reach-conn-checker
 pip install .
+
+# Windows環境の場合、TUI表示のために追加パッケージが必要です
+pip install windows-curses
 ```
 
 ## 使い方 (Usage)
@@ -89,4 +92,4 @@ python -m reach_conn_checker
 - [x] **Core Logic**: 麻雀の基本的な役判定ロジックの実装（パケット整合性チェック済み）
 - [x] **Reach Feature**: リーチ（Continuous Ping）の実装
 - [x] **AI Simulation**: 敵CPU（トラフィックジェネレーター）との1on1対戦モード
-- [ ] **UI Polish**: curses ライブラリを使用した、よりリアルなターミナル画面の構築
+- [x] **UI Polish**: curses ライブラリを使用した、よりリアルなターミナル画面の構築
